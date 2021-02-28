@@ -1,0 +1,18 @@
+.dropdown {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-color: gray;
+  width: 4rem;
+  height: 5rem;
+}
+.label {
+  font-size: 0.8rem;
+}
+select {
+  height: 2.5rem;
+  width: 5rem;
+  padding: 0.5rem; /* ez kell közeprehelyezesre */
+  font-weight: bold; /* ez kell közeprehelyezesre */
+}

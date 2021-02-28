@@ -1,0 +1,65 @@
+.main {
+  height: 92vh;
+  background-color: rgb(238, 238, 238);
+  width: 100%;
+  padding: 0 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.header-cont {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  width: 80%;
+  background-color: transparent;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: center;
+  align-items: center;
+}
+
+.game-cont {
+  background-color: blue;
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+}
+.best {
+  font-size: 2rem;
+  font-weight: bold;
+  color: black;
+}
+
+span {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: black;
+}
+
+#p-current {
+  color: gray;
+  padding-right: 10px;
+}
+#p-best {
+  color: gray;
+}
+
+.h-c-1 {
+  display: "flex";
+  flex-direction: "row";
+  align-text: "center";
+}
+.h-c-2 {
+  display: "flex";
+  flex-direction: "column";
+  align-items: "center";
+  justify-content: "center";
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+}
